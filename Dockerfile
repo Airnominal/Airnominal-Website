@@ -1,5 +1,5 @@
 # Build the website
-FROM node AS builder
+FROM node:18 AS builder
 
 WORKDIR /tmp/app
 
@@ -12,4 +12,4 @@ RUN yarn build
 # Run the website
 FROM codecentric/single-page-application-server AS runtime
 
-COPY --from=builder /tmp/app /app
+COPY --from=builder /tmp/app/dist /app
