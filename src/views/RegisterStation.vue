@@ -16,7 +16,7 @@
           Sensors
         </v-input>
 
-        <v-list flat dense>
+        <v-list flat dense class="sensors-list">
           <v-list-item v-for="(sensor, index) in stationSensors" :key="index">
             <v-row>
               <v-col cols="7">
@@ -120,6 +120,11 @@
 // Add back top padding that is removed by a dialog
 .v-dialog > .v-card > .v-card__text {
   padding: 16px 24px 20px !important;
+}
+
+// Remove background in dark mode
+.sensors-list {
+  background-color: transparent !important;
 }
 
 // Center registration page
