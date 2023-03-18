@@ -27,8 +27,7 @@ yarn-error.log*
 *.log
 
 # Configuration
-.env*
-!.env*.sample
+.env*.local
 
 # Distribution & Packaging
 build/
