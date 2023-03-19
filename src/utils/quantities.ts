@@ -10,13 +10,13 @@ export const quantities: Quantity[] = [
   { name: 'Humidity', unit: '%' },
 
   // Outdoor Pollution
-  { name: 'PM10.0', unit: 'μg/m3' },
-  { name: 'PM12.5', unit: 'μg/m3' },
-  { name: 'SO2', unit: 'μg/m3' },
-  { name: 'NO2', unit: 'μg/m3' },
-  { name: 'CO', unit: 'μg/m3' },
-  { name: 'O3', unit: 'μg/m3' },
-  { name: 'C6H6', unit: 'μg/m3' },
+  { name: 'PM10', unit: 'µg/m³' },
+  { name: 'PM2.5', unit: 'µg/m³' },
+  { name: 'SO2', unit: 'µg/m³' },
+  { name: 'NO2', unit: 'µg/m³' },
+  { name: 'CO', unit: 'mg/m³' },
+  { name: 'O3', unit: 'µg/m³' },
+  { name: 'C6H6', unit: 'µg/m³' },
 
   // Indoor Pollution
   { name: 'CO2', unit: 'ppm' },
@@ -24,7 +24,6 @@ export const quantities: Quantity[] = [
   // Car Counters
   { name: 'Cars', unit: 'n/h' },
   { name: 'Speed', unit: 'km/h' },
-  { name: 'Speed', unit: 'm/s' },
   { name: 'Interval', unit: 's' },
 
   // Technical
