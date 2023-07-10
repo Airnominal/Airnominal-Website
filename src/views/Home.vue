@@ -7,13 +7,13 @@
         </v-card-title>
 
         <v-card-actions>
-          <v-btn href="https://grafana.gimvic.eu" text large color="primary" target="_blank">
+          <v-btn href="http://zrak.gimvic.org:3000" text large color="primary" target="_blank">
             Grafana
           </v-btn>
-          <v-btn href="https://influx.gimvic.eu" text large color="primary" target="_blank">
+          <v-btn href="http://zrak.gimvic.org:8086" text large color="primary" target="_blank">
             InfluxDB
           </v-btn>
-          <v-btn href="https://mongo.gimvic.eu" text large color="primary" target="_blank">
+          <v-btn href="http://zrak.gimvic.org:27017" text large color="primary" target="_blank">
             MongoDB
           </v-btn>
         </v-card-actions>
